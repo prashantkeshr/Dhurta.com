@@ -12,7 +12,7 @@ export default function Footer() {
           viewport={{ once: true, margin: "-60px" }}
           transition={{ duration: 0.7 }}
         >
-          <img src="/assets/logo.png" alt="Dhurta trishula mark" className="footer__logo" />
+          <img src="/assets/dhurta-logo.png" alt="Dhurta trishula mark" className="footer__logo" />
           <p className="footer__tagline text-gradient-gold">
             Sovereign · Privacy-Native · Yours
           </p>

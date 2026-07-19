@@ -24,7 +24,7 @@ export default function Nav() {
     >
       <div className="nav__inner container">
         <a href="#top" className="nav__brand">
-          <img src="/assets/logo.png" alt="Dhurta trishula mark" className="nav__logo" />
+          <img src="/assets/dhurta-logo.png" alt="Dhurta trishula mark" className="nav__logo" />
           <span className="nav__wordmark">
             DHURTA<span className="nav__tld">.com</span>
           </span>
