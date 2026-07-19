@@ -1,0 +1,136 @@
+.connect {
+  position: relative;
+  padding: 8rem 0;
+  background: var(--black);
+  overflow: hidden;
+}
+
+.connect::after {
+  content: "";
+  position: absolute;
+  left: -10%;
+  top: 20%;
+  width: 45vw;
+  height: 45vw;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(0, 212, 170, 0.1), transparent 65%);
+  pointer-events: none;
+}
+
+.connect__inner {
+  position: relative;
+  z-index: 2;
+}
+
+.connect__label {
+  color: var(--teal);
+  margin-bottom: 1.2rem;
+}
+
+.connect__accent {
+  color: var(--teal);
+  text-shadow: 0 0 38px rgba(0, 212, 170, 0.45);
+}
+
+.connect__lede {
+  margin-top: 1.4rem;
+  max-width: 38rem;
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: var(--gray-light);
+}
+
+.connect__svg {
+  width: 100%;
+  max-width: 760px;
+  margin: 2.5rem auto 0;
+  display: block;
+}
+
+.connect__svg-label {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.28em;
+  fill: var(--gray-light);
+}
+
+.connect__svg-label--dim {
+  opacity: 0.6;
+  fill: #ff4500;
+}
+
+.connect__bottom {
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  gap: 2rem;
+  margin-top: 2.5rem;
+  align-items: start;
+}
+
+.connect__pair {
+  padding: 2rem;
+  text-align: center;
+}
+
+.connect__pair-label {
+  font-family: var(--font-mono);
+  font-size: 0.64rem;
+  letter-spacing: 0.28em;
+  color: var(--teal);
+}
+
+.connect__pair-code {
+  font-family: var(--font-mono);
+  font-size: clamp(2.4rem, 6vw, 3.6rem);
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  margin: 1rem 0;
+  color: var(--white);
+  text-shadow: 0 0 30px rgba(0, 212, 170, 0.4);
+  font-variant-numeric: tabular-nums;
+}
+
+.connect__pair-hint {
+  font-size: 0.86rem;
+  line-height: 1.6;
+  color: var(--gray-light);
+  max-width: 26rem;
+  margin: 0 auto;
+}
+
+.connect__caps {
+  display: flex;
+  flex-direction: column;
+  gap: 1.3rem;
+}
+
+.connect__cap {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+}
+
+.connect__cap-icon {
+  font-size: 1.5rem;
+  line-height: 1;
+  filter: grayscale(0.2);
+}
+
+.connect__cap-title {
+  font-family: var(--font-display);
+  font-size: 1.12rem;
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+}
+
+.connect__cap-body {
+  font-size: 0.88rem;
+  line-height: 1.6;
+  color: var(--gray-light);
+}
+
+@media (max-width: 860px) {
+  .connect__bottom {
+    grid-template-columns: 1fr;
+  }
+}
