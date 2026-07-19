@@ -161,6 +161,26 @@ export default function SetuSection() {
 
         <BridgeArc />
         <SearchDemo />
+
+        <motion.div
+          className="setu__cta-row"
+          initial={{ opacity: 0, y: 24 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: "-40px" }}
+          transition={{ duration: 0.7, ease: EASE }}
+        >
+          <motion.a
+            href="https://setu.dhurta.com"
+            target="_blank"
+            rel="noreferrer"
+            className="setu__try"
+            whileHover={{ scale: 1.04 }}
+            whileTap={{ scale: 0.97 }}
+          >
+            ⌕ Try Dhurta Setu
+          </motion.a>
+          <span className="setu__subdomain">setu.dhurta.com</span>
+        </motion.div>
       </div>
     </section>
   );

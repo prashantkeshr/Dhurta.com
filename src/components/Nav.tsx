@@ -3,6 +3,7 @@ import { useState } from "react";
 import "./Nav.css";
 
 const LINKS = [
+  { href: "#products", label: "Products" },
   { href: "#browser", label: "Browser" },
   { href: "#connect", label: "Connect" },
   { href: "#setu", label: "Setu" },

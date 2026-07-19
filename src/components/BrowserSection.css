@@ -327,6 +327,22 @@
   box-shadow: 0 0 38px rgba(255, 69, 0, 0.4);
 }
 
+.browser__cta--outline {
+  font-family: var(--font-tech);
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 0.95rem 1.9rem;
+  border-radius: 999px;
+  color: var(--saffron);
+  border: 1.5px solid var(--saffron);
+  background: transparent;
+  transition: background 0.25s ease, color 0.25s ease;
+}
+
+.browser__cta--outline:hover {
+  background: rgba(255, 69, 0, 0.12);
+}
+
 .browser__source {
   font-family: var(--font-mono);
   font-size: 0.85rem;

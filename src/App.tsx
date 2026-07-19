@@ -1,6 +1,7 @@
 import Nav from "./components/Nav";
 import Hero from "./components/Hero";
 import Pillars from "./components/Pillars";
+import ProductsHub from "./components/ProductsHub";
 import BrowserSection from "./components/BrowserSection";
 import ConnectSection from "./components/ConnectSection";
 import SetuSection from "./components/SetuSection";
@@ -13,6 +14,7 @@ export default function App() {
       <main>
         <Hero />
         <Pillars />
+        <ProductsHub />
         <BrowserSection />
         <ConnectSection />
         <SetuSection />

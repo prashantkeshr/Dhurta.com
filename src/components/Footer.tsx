@@ -25,28 +25,24 @@ export default function Footer() {
         <div className="footer__cols">
           <div className="footer__col">
             <h4 className="footer__col-title">Products</h4>
-            <a href="#browser">Dhurta Browser</a>
-            <a href="#connect">Dhurta Connect</a>
-            <a href="#setu">Dhurta Setu</a>
+            <a href="https://products.dhurta.com" target="_blank" rel="noreferrer">All Products ↗</a>
+            <a href="https://browser.dhurta.com" target="_blank" rel="noreferrer">Dhurta Browser ↗</a>
+            <a href="https://connect.dhurta.com" target="_blank" rel="noreferrer">Dhurta Connect ↗</a>
+            <a href="https://setu.dhurta.com" target="_blank" rel="noreferrer">Dhurta Setu ↗</a>
           </div>
           <div className="footer__col">
-            <h4 className="footer__col-title">Open</h4>
+            <h4 className="footer__col-title">Open Source</h4>
             <a href="https://github.com/prashantkeshr/Dhurta" target="_blank" rel="noreferrer">
               Browser source ↗
             </a>
-            <a
-              href="https://github.com/prashantkeshr/Dhurta/releases"
-              target="_blank"
-              rel="noreferrer"
-            >
+            <a href="https://github.com/prashantkeshr/Dhurta/releases" target="_blank" rel="noreferrer">
               Releases ↗
             </a>
           </div>
           <div className="footer__col">
-            <h4 className="footer__col-title">Group</h4>
-            <a href="https://dhurta.org" target="_blank" rel="noreferrer">
-              dhurta.org ↗
-            </a>
+            <h4 className="footer__col-title">Dhurta Group</h4>
+            <a href="https://dhurta.org" target="_blank" rel="noreferrer">dhurta.org ↗</a>
+            <a href="https://dhurta.com" target="_blank" rel="noreferrer">dhurta.com</a>
           </div>
         </div>
       </div>

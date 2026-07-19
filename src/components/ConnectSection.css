@@ -59,6 +59,37 @@
   fill: #ff4500;
 }
 
+.connect__cta-row {
+  display: flex;
+  align-items: center;
+  gap: 1.4rem;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.connect__try {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: var(--font-tech);
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 0.9rem 1.8rem;
+  border-radius: 999px;
+  color: var(--black);
+  background: linear-gradient(120deg, #4dffe0, var(--teal));
+  box-shadow: 0 0 34px rgba(0, 212, 170, 0.4);
+}
+
+.connect__subdomain {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  color: var(--teal);
+  letter-spacing: 0.06em;
+  border-bottom: 1px dashed rgba(0, 212, 170, 0.45);
+  padding-bottom: 2px;
+}
+
 .connect__bottom {
   display: grid;
   grid-template-columns: 1.1fr 1fr;

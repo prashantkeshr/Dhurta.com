@@ -277,14 +277,24 @@ export default function BrowserSection() {
           transition={{ duration: 0.7, ease: EASE }}
         >
           <motion.a
-            href="https://github.com/prashantkeshr/Dhurta/releases"
+            href="https://browser.dhurta.com"
             target="_blank"
             rel="noreferrer"
             className="browser__download"
             whileHover={{ scale: 1.04 }}
             whileTap={{ scale: 0.97 }}
           >
-            ⬇ Download from GitHub Releases
+            🔱 Try Dhurta Browser
+          </motion.a>
+          <motion.a
+            href="https://github.com/prashantkeshr/Dhurta/releases"
+            target="_blank"
+            rel="noreferrer"
+            className="browser__cta browser__cta--outline"
+            whileHover={{ scale: 1.04 }}
+            whileTap={{ scale: 0.97 }}
+          >
+            ⬇ Download Release
           </motion.a>
           <a
             href="https://github.com/prashantkeshr/Dhurta"

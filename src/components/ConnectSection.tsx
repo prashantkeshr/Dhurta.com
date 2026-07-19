@@ -198,6 +198,26 @@ export default function ConnectSection() {
 
         <PeerDiagram />
 
+        <motion.div
+          className="connect__cta-row"
+          initial={{ opacity: 0, y: 24 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: "-60px" }}
+          transition={{ duration: 0.7, ease: EASE }}
+        >
+          <motion.a
+            href="https://connect.dhurta.com"
+            target="_blank"
+            rel="noreferrer"
+            className="connect__try"
+            whileHover={{ scale: 1.04 }}
+            whileTap={{ scale: 0.97 }}
+          >
+            💬 Try Dhurta Connect
+          </motion.a>
+          <span className="connect__subdomain">connect.dhurta.com</span>
+        </motion.div>
+
         <div className="connect__bottom">
           <PairCode />
           <div className="connect__caps">

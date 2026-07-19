@@ -153,6 +153,38 @@
   border: 1px solid rgba(0, 212, 170, 0.35);
 }
 
+.setu__cta-row {
+  display: flex;
+  align-items: center;
+  gap: 1.4rem;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+  justify-content: center;
+}
+
+.setu__try {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: var(--font-tech);
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 0.9rem 1.8rem;
+  border-radius: 999px;
+  color: var(--black);
+  background: linear-gradient(120deg, #7dc8ff, var(--blue));
+  box-shadow: 0 0 34px rgba(74, 158, 255, 0.4);
+}
+
+.setu__subdomain {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  color: var(--blue);
+  letter-spacing: 0.06em;
+  border-bottom: 1px dashed rgba(74, 158, 255, 0.45);
+  padding-bottom: 2px;
+}
+
 .setu__demo-note {
   margin-top: 1rem;
   font-size: 0.82rem;
